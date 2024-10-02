@@ -1,0 +1,5 @@
+runtime: python39  # Specifies Python 3.9 as the runtime
+
+handlers:
+- url: /.*
+  script: auto  # Tells App Engine to automatically select the entry point
